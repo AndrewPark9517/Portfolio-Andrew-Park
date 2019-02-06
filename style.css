@@ -235,3 +235,67 @@ footer {
     background-color: aliceblue;
 }
 
+@media only screen and (min-width: 1000px) {
+
+    .drop-down button {
+        display: none;
+    }
+
+    .drop-down-content {
+        display: inline-block;
+        background: transparent;
+        top: 0px;
+    }
+
+    .drop-down-content a {
+        display: inline-block;
+    }
+
+    .drop-down-content a:not(:last-child) {
+        border-bottom: none;
+    }
+
+    section {
+        padding: 0 100px;
+    }
+
+    .about-me-content {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .about-me-content .photo {
+        width: 300px;
+        margin: 0 50px;
+        border-radius: 0;
+    }
+
+    .about-me-content .self-intro {
+        width: 500px;
+        margin: 0 50px;
+    }
+
+    .project-content {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .project-content * {
+        flex: 1;
+    }
+
+    .project-desc, .project-skills {
+        text-align: left;
+    }
+
+    .skills-container {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 100px;
+    }
+
+    .skills-container * {
+        flex: 1;
+    }
+
+}

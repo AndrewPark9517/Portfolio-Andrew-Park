@@ -15,7 +15,7 @@
             <nav class="header-bar">
                 <h1 class="my-name">Andrew Park</h1>
                 <div class="drop-down">
-                    <button><i class="fas fa-bars"></i></button>
+                    <button class="burger-drop"><i class="fas fa-bars"></i></button>
                     <div class="drop-down-content">
                         <a href="#about-me">About Me</a>
                         <a href="#projects">Projects</a>
@@ -29,93 +29,101 @@
             </header>
             <section id="about-me">
                 <h2 class="section-header">About Me</h2>
-                <img src="./image/graduationPicture.jpg" alt="Andrew Park Photo" class="photo"/>
-                <div class="self-intro">
-                    <p>I am a full-stack developer based in the Los Angeles area.</p>
-                    <p>
-                        What I enjoy most is the creative process of creating something new and interesting 
-                        from parts. It's what lead me to getting a bachelor's in chemical engineering from UCLA,
-                        and has now lead me to programming. 
-                    </p>
-                    <p>
-                        My interests also include making music, reading, boardgames, 
-                        and just about any sport involving a racket. 
-                    </p>
+                <div class="about-me-content">
+                    <img src="./image/graduationPicture.jpg" alt="Self Portrait" class="photo"/>
+                    <div class="self-intro">
+                        <p>I am a full-stack developer based in the Los Angeles area.</p>
+                        <p>
+                            What I enjoy most is the creative process of creating something new and interesting 
+                            from parts. It's what lead me to getting a bachelor's in chemical engineering from UCLA,
+                            and has now lead me to programming. 
+                        </p>
+                        <p>
+                            My interests also include making music, reading, boardgames, 
+                            and just about any sport involving a racket. 
+                        </p>
+                    </div>
                 </div>
             </section>
             <section id="projects">
                 <h2 class="section-header">Projects</h2>
                 <article class="project">
                     <h3 class="project-header">Booked</h3>
-                    <div class="project-view">
-                        <image src="./image/booked.png" class="project-photo"/>
-                        <div class="project-links">
-                            <a href="https://booked-inventory-app.herokuapp.com/" target="_blank">Live Demo</a>
-                            <a href="https://github.com/AndrewPark9517/booked-client" target="_blank">Code</a>
+                    <div class="project-content">
+                        <div class="project-view">
+                            <image src="./image/booked.png" class="project-photo"/>
+                            <div class="project-links">
+                                <a href="https://booked-inventory-app.herokuapp.com/" target="_blank">Live Demo</a>
+                                <a href="https://github.com/AndrewPark9517/booked-client" target="_blank">Code</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="project-desc">
-                        <p class="project-summary">Booked is an inventory application for printed materials. 
-                                Useful for both bookstores and owners of private book collections.
-                        </p>
-                        <ul class="project-skills">
-                            <li>React</li>
-                            <li>Redux</li>
-                            <li>MongoDB</li>
-                            <li>Mongoose</li>
-                            <li>Node.js</li>
-                            <li>Express</li>
-                            <li>Passport</li>
-                            <li>Javascript</li>
-                            <li>CSS</li>
-                            <li>HTML</li>
-                        </ul>
+                        <div class="project-desc">
+                            <p class="project-summary">Booked is an inventory application for printed materials. 
+                                    Useful for both bookstores and owners of private book collections.
+                            </p>
+                            <ul class="project-skills">
+                                <li>React</li>
+                                <li>Redux</li>
+                                <li>MongoDB</li>
+                                <li>Mongoose</li>
+                                <li>Node.js</li>
+                                <li>Express</li>
+                                <li>Passport</li>
+                                <li>Javascript</li>
+                                <li>CSS</li>
+                                <li>HTML</li>
+                            </ul>
+                        </div>
                     </div>
                 </article>
                 <article class="project">
                     <h3 class="project-header">Symphony</h3>
-                    <div class="project-view">
-                        <image src="./image/symphony.png" class="project-photo"/>
-                        <div class="project-links">
-                            <a href="https://symphony-forum.herokuapp.com/" target="_blank">Live Demo</a>
-                            <a href="https://github.com/AndrewPark9517/symphony-forum-app" target="_blank">Code</a>
+                    <div class="project-content">
+                        <div class="project-view">
+                            <image src="./image/symphony.png" class="project-photo"/>
+                            <div class="project-links">
+                                <a href="https://symphony-forum.herokuapp.com/" target="_blank">Live Demo</a>
+                                <a href="https://github.com/AndrewPark9517/symphony-forum-app" target="_blank">Code</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="project-desc">
-                        <p class="project-summary">Symphony is a discussion forum for classical musicians or those 
-                                aspring to share thoughts, give advice, and arrange meetups.
-                        </p>
-                        <ul class="project-skills">
-                            <li>Node.js</li>
-                            <li>Express</li>
-                            <li>MongoDB</li>
-                            <li>Mongoose</li>
-                            <li>Javascript</li>
-                            <li>JQuery</li>
-                            <li>Ejs</li>
-                            <li>CSS</li>
-                        </ul>
+                        <div class="project-desc">
+                            <p class="project-summary">Symphony is a discussion forum for classical musicians or those 
+                                    aspring to share thoughts, give advice, and arrange meetups.
+                            </p>
+                            <ul class="project-skills">
+                                <li>Node.js</li>
+                                <li>Express</li>
+                                <li>MongoDB</li>
+                                <li>Mongoose</li>
+                                <li>Javascript</li>
+                                <li>JQuery</li>
+                                <li>Ejs</li>
+                                <li>CSS</li>
+                            </ul>
+                        </div>
                     </div>
                 </article>
                 <article class="project">
                     <h3 class="project-header">Page Turner</h3>
-                    <div class="project-view">
-                        <image src="./image/pageTurner.png" class="project-photo"/>
-                        <div class="project-links">
-                            <a href="https://andrewpark9517.github.io/Page-Turner/" target="_blank">Live Demo</a>
-                            <a href="https://github.com/AndrewPark9517/Page-Turner" target="_blank">Code</a>
+                    <div class="project-content">
+                        <div class="project-view">
+                            <image src="./image/pageTurner.png" class="project-photo"/>
+                            <div class="project-links">
+                                <a href="https://andrewpark9517.github.io/Page-Turner/" target="_blank">Live Demo</a>
+                                <a href="https://github.com/AndrewPark9517/Page-Turner" target="_blank">Code</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="project-desc">
-                        <p class="project-summary">Page Turner was built to be the Rotten Tomatoes for books with book 
-                                reviews of both critics and the general audience.
-                        </p>
-                        <ul class="project-skills">
-                            <li>Javascript</li>
-                            <li>JQuery</li>
-                            <li>CSS</li>
-                            <li>HTML</li>
-                        </ul>
+                        <div class="project-desc">
+                            <p class="project-summary">Page Turner was built to be the Rotten Tomatoes for books with book 
+                                    reviews of both critics and the general audience.
+                            </p>
+                            <ul class="project-skills">
+                                <li>Javascript</li>
+                                <li>JQuery</li>
+                                <li>CSS</li>
+                                <li>HTML</li>
+                            </ul>
+                        </div>
                     </div>
                 </article>
             </section>
