@@ -6,10 +6,157 @@
         <title>Portfolio: Andrew Park</title> 
         <link href="normalize.css" rel="stylesheet" type="text/css" />
         <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" 
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Work+Sans:300" rel="stylesheet">
     </head>
     <body>
         <main>
-            <h1>Andrew Park: Portfolio</h1>
+            <nav class="header-bar">
+                <h1 class="my-name">Andrew Park</h1>
+                <div class="drop-down">
+                    <button><i class="fas fa-bars"></i></button>
+                    <div class="drop-down-content">
+                        <a href="#about-me">About Me</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+            </nav>
+            <header id="landing" class="landing">
+                <p id="welcome" class="welcome"></p>
+            </header>
+            <section id="about-me">
+                <h2 class="section-header">About Me</h2>
+                <img src="./image/graduationPicture.jpg" alt="Andrew Park Photo" class="photo"/>
+                <div class="self-intro">
+                    <p>I am a full-stack developer based in the Los Angeles area.</p>
+                    <p>
+                        What I enjoy most is the creative process of creating something new and interesting 
+                        from parts. It's what lead me to getting a bachelor's in chemical engineering from UCLA,
+                        and has now lead me to programming. 
+                    </p>
+                    <p>
+                        My interests also include making music, reading, boardgames, 
+                        and just about any sport involving a racket. 
+                    </p>
+                </div>
+            </section>
+            <section id="projects">
+                <h2 class="section-header">Projects</h2>
+                <article class="project">
+                    <h3 class="project-header">Booked</h3>
+                    <div class="project-view">
+                        <image src="./image/booked.png" class="project-photo"/>
+                        <div class="project-links">
+                            <a href="https://booked-inventory-app.herokuapp.com/" target="_blank">Live Demo</a>
+                            <a href="https://github.com/AndrewPark9517/booked-client" target="_blank">Code</a>
+                        </div>
+                    </div>
+                    <div class="project-desc">
+                        <p class="project-summary">Booked is an inventory application for printed materials. 
+                                Useful for both bookstores and owners of private book collections.
+                        </p>
+                        <ul class="project-skills">
+                            <li>React</li>
+                            <li>Redux</li>
+                            <li>MongoDB</li>
+                            <li>Mongoose</li>
+                            <li>Node.js</li>
+                            <li>Express</li>
+                            <li>Passport</li>
+                            <li>Javascript</li>
+                            <li>CSS</li>
+                            <li>HTML</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="project">
+                    <h3 class="project-header">Symphony</h3>
+                    <div class="project-view">
+                        <image src="./image/symphony.png" class="project-photo"/>
+                        <div class="project-links">
+                            <a href="https://symphony-forum.herokuapp.com/" target="_blank">Live Demo</a>
+                            <a href="https://github.com/AndrewPark9517/symphony-forum-app" target="_blank">Code</a>
+                        </div>
+                    </div>
+                    <div class="project-desc">
+                        <p class="project-summary">Symphony is a discussion forum for classical musicians or those 
+                                aspring to share thoughts, give advice, and arrange meetups.
+                        </p>
+                        <ul class="project-skills">
+                            <li>Node.js</li>
+                            <li>Express</li>
+                            <li>MongoDB</li>
+                            <li>Mongoose</li>
+                            <li>Javascript</li>
+                            <li>JQuery</li>
+                            <li>Ejs</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="project">
+                    <h3 class="project-header">Page Turner</h3>
+                    <div class="project-view">
+                        <image src="./image/pageTurner.png" class="project-photo"/>
+                        <div class="project-links">
+                            <a href="https://andrewpark9517.github.io/Page-Turner/" target="_blank">Live Demo</a>
+                            <a href="https://github.com/AndrewPark9517/Page-Turner" target="_blank">Code</a>
+                        </div>
+                    </div>
+                    <div class="project-desc">
+                        <p class="project-summary">Page Turner was built to be the Rotten Tomatoes for books with book 
+                                reviews of both critics and the general audience.
+                        </p>
+                        <ul class="project-skills">
+                            <li>Javascript</li>
+                            <li>JQuery</li>
+                            <li>CSS</li>
+                            <li>HTML</li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+            <section id="skills">
+                <h2 class="section-header">Skills</h2>
+                <div class="skills-container">
+                    <div class="skills frontend">
+                            <h3  class="skills-header">Frontend Skills</h3>
+                            <ul>
+                                <li>React + Redux</li>
+                                <li>Javascript</li>
+                                <li>JQuery</li>
+                                <li>CSS</li>
+                                <li>HTML5</li>
+                            </ul>
+                        </div>
+                        <div class="skills backend">
+                            <h3 class="skills-header">Backend Skills</h3>
+                            <ul>
+                                <li>Node + Express/Passport</li>
+                                <li>MongoDB + Mongoose</li>
+                                <li>Mocha + Chai</li>
+                                <li>Heroku</li>
+                                <li>mLab</li>
+                            </ul>
+                        </div>
+                </div>
+            </section>
+            <section id="contact" class="contact">
+                <h2 class="section-header">Let's Talk!</h2>
+                <p class="goodbye">I look forward to hearing from you!</p>
+                <div class="favicons">
+                    <a href="mailto:andrewpark9517@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+                    <a href="https://github.com/AndrewPark9517" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/andrewpark9517/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://angel.co/andrew-park-59" target="_blank"><i class="fab fa-angellist"></i></a>
+                </div>
+            </section>
+            <footer>
+                <span><i class="far fa-copyright"></i>&nbsp;2019 | Andrew Park</span>
+            </footer>
 
         </main>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

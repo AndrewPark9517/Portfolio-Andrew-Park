@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Sans-Serif;
+    font-size: 16px;
+    color: darkslategray;
+}
+
+h1, h2 {
+    font-family: 'Work Sans', Sans-Serif;
+}
+
+h1, h2, h3, h4 {
+    color: black;
+}
+
+h1 {
+    color: cadetblue;
+}
+
+.header-bar {
+    top:0;
+    width: 100%;
+    overflow: visible;
+    position: fixed;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+}
+
+.drop-down {
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.drop-down button {
+    float: right;
+    display: block;
+    background: white;
+    border: none;
+    margin-right: 5px;
+    margin-top: 3px;
+    font-size: 20px;
+    outline: none;
+}
+
+.drop-down-content {
+    display: none;
+    clear: right;
+    position: absolute;
+    background-color: rgb(270, 270, 270, .9);
+    margin-right: 1px;
+    padding-right: 5px;
+    padding-left: 40px;
+    top: 38px;
+    right: 0px;
+}
+
+.drop-down:hover .drop-down-content {
+    display: block;
+}
+
+.drop-down-content a {
+    display: block;
+    text-align: right;
+    padding: 8px 10px;
+    font-size: 20px;
+    color: rgb(80, 180, 180);
+    text-decoration: none;
+}
+
+.drop-down-content a:not(:last-child) {
+    border-bottom: 1px solid rgb(50, 50, 50);
+}
+
+.my-name {
+    float: left;
+    margin: 0px 10px;
+}
+
+.landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    height: 100vh;
+    background: url('./image/bluesky.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.welcome {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 1px black;
+}
+
+section {
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.section-header {
+    text-align: center;
+    font-size: 35px;
+    line-height: 6px;
+    border-bottom: 10px solid rgb(110, 210, 210, .5);
+}
+
+.photo {
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.self-intro {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.project-header {
+    font-size: 22px;
+    display: inline-block;
+    padding-left: 10px;
+    margin-left: 10px;
+    padding-right: 40px;
+    text-align: center;
+    line-height: 6px;
+    border-bottom: 7px solid rgb(174, 198, 223, .5);
+}
+
+.project-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-links * {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(80, 180, 180);
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.project-photo {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.project-desc {
+    text-align: center;
+}
+
+.project-summary {
+    width: 70%;
+    display: inline-block;
+}
+
+.project-skills {
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    display: inline-block;
+    text-align: center;
+}
+
+.project-skills li {
+    display: inline-block;
+    color: darkgray;
+}
+
+.project-skills li:not(:first-child)::before {
+    content: "\2022";
+    margin-right: 2px;
+    color: darkgray;
+    font-size: 10px;
+}
+
+.skills-container {
+    text-align: center;
+}
+
+.skills-header {
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.skills ul {
+    display: inline-block;
+    text-align: left;
+    padding-left: 60px;
+    width: 280px;
+}
+
+.skills li {
+    list-style: none;
+    font-size: 16px;
+}
+
+.skills li::before {
+    content: '\2BC8';
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.favicons {
+    text-align: center;
+}
+
+.favicons * {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 40px;
+    color: darkgray;
+}
+
+footer {
+    height: 7vh;
+    text-align: center;
+    padding-top: 2vh;
+    margin-top: 3vh;
+    background-color: aliceblue;
+}
+
