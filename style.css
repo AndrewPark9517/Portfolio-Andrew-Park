@@ -24,6 +24,7 @@ h1 {
     top:0;
     width: 100%;
     overflow: visible;
+    padding: 3px 0px;
     position: fixed;
     background-color: white;
     box-shadow: 0 0 10px black;
@@ -54,7 +55,7 @@ h1 {
     margin-right: 1px;
     padding-right: 5px;
     padding-left: 40px;
-    top: 38px;
+    top: 44px;
     right: 0px;
 }
 
@@ -92,7 +93,7 @@ h1 {
 }
 
 .welcome {
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     text-align: center;
     text-shadow: 2px 1px black;
@@ -107,7 +108,7 @@ section {
 .section-header {
     text-align: center;
     font-size: 35px;
-    line-height: 6px;
+    line-height: 30px;
     border-bottom: 10px solid rgb(110, 210, 210, .5);
 }
 
@@ -129,7 +130,7 @@ section {
     margin-left: 10px;
     padding-right: 40px;
     text-align: center;
-    line-height: 6px;
+    line-height: 20px;
     border-bottom: 7px solid rgb(174, 198, 223, .5);
 }
 
@@ -141,13 +142,17 @@ section {
 
 .project-links * {
     display: inline-block;
-    margin: 20px;
+    margin: 10px;
     padding: 10px;
     font-size: 15px;
     background-color: rgb(80, 180, 180);
     color: white;
     border-radius: 6px;
     text-decoration: none;
+}
+
+.project-links a:hover {
+    background-color: rgb(67, 108, 223);
 }
 
 .project-photo {
@@ -249,6 +254,11 @@ footer {
 
     .drop-down-content a {
         display: inline-block;
+        margin-top: 2px;
+    }
+
+    .drop-down-content a:hover {
+        text-decoration: underline;
     }
 
     .drop-down-content a:not(:last-child) {
@@ -257,6 +267,7 @@ footer {
 
     section {
         padding: 0 100px;
+        padding-top: 30px;
     }
 
     .about-me-content {
