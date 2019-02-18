@@ -140,6 +140,10 @@ section {
     align-items: center;
 }
 
+.project-links {
+    text-align: center;
+}
+
 .project-links * {
     display: inline-block;
     margin: 10px;
@@ -297,6 +301,10 @@ footer {
 
     .project-desc, .project-skills {
         text-align: left;
+    }
+
+    .project-summary, .project-skills {
+        width: 100%;
     }
 
     .skills-container {
