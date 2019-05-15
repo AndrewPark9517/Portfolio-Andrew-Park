@@ -295,6 +295,10 @@ footer {
         justify-content: space-around;
     }
 
+    .project-desc, .project-view {
+        flex: 1;
+    }
+
     .project-desc, .project-skills {
         text-align: left;
     }
